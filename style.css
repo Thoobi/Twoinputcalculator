@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "stretchpro";
+    src: url("StretchPro.otf");
+}
+@font-face {
+    font-family: "luxerie";
+    src: url("Luxerie.otf");
+}
+@font-face {
+    font-family: "arenta";
+    src: url("arenta.otf");
+}
+
+body 
+{
+    background-color: rgb(0, 0, 0);
+}
+
+main
+{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    height: 660px;
+    color: #FFFFFF;
+    width: 90%;
+    border: 1px solid #0c0b0b;
+    box-shadow: 2px 5px #0c0b0b4d;
+    background: rgba(255, 255, 255, 0.123);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.93);
+}
+
+.headies
+{
+    font-size: 28px;
+    font-family: "arenta";
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+#reset {
+    margin-left: 20px;
+    margin-top: 20px
+}
+#reset
+{
+    color: #fafafa;
+}
+
+.label-1
+{
+    font-size: 20px;
+    font-family: "arenta";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input
+{
+    padding: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-2
+{
+    font-size: 20px;
+    font-family: "arenta";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.output
+{
+    width: 60%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid #FAFAFA;
+}
+
+p
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: "arenta";
+}
+
+#total
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: "arenta";
+    font-weight: 400;
+}
+
+
+.btn
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+button
+{
+    background-color: #fafafa;
+    padding: 15px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: #fafafa;
+    font-family: "arenta";
+    color: #000000;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 800px) {
+    main
+    {
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container
+    {
+        height: 700px;
+        color: #FFFFFF;
+        width: 90%;
+        border: 1px solid #0c0b0b;
+        box-shadow: 2px 5px #0c0b0b4d;
+        background: rgba(255, 255, 255, 0.123);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.93);
+    }
+    .headies
+    {
+        font-size: 30px;
+        font-family: "arenta";
+        font-weight: 400;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+    .label-1
+    {
+        font-size: 25px;
+        font-family: "arenta";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    input
+    {
+        padding: 15px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input[type=number]
+    {
+        font-size: 25px;
+        font-family: "arenta";
+    }
+
+    .label-2
+    {
+        font-size: 25px;
+        font-family: "arenta";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .output
+    {
+        width: 50%;
+        height: 180px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #FAFAFA;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #total
+    {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 45px;
+        font-family: "arenta";
+        font-weight: 400;
+    }
+    .btn
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin-top: 80px;
+        gap: 5px;
+    }
+
+    #reset {
+        margin-left: 30px;
+        float: left;
+        margin-top: 30px
+    }
+
+}
+
