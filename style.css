@@ -83,6 +83,7 @@ input
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-family: "arenta";
 }
 
 .label-2
@@ -117,7 +118,7 @@ p
 #total
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     font-family: "arenta";
     font-weight: 400;
 }
@@ -230,7 +231,7 @@ button
     {
         text-align: center;
         margin-top: 30px;
-        font-size: 45px;
+        font-size: 30px;
         font-family: "arenta";
         font-weight: 400;
     }
