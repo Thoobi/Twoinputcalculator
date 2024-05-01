@@ -22,6 +22,10 @@ function addNumber(){
     {
         document.getElementById("total").innerHTML = "Enter first and second number";
     }
+    else if(document.getElementById("first").value === "" || document.getElementById("second").value === "")
+    {
+        document.getElementById("total").innerHTML = "Enter second number";
+    }
     else{
         let totalNum = firstNum + secondNum;
         const all = document.getElementById("total").innerHTML = totalNum;
@@ -38,6 +42,10 @@ function subNum(){
     {
         document.getElementById("total").innerHTML = "Enter first and second number";
     }
+    else if(document.getElementById("first").value === "" || document.getElementById("second").value === "")
+    {
+        document.getElementById("total").innerHTML = "Enter second number";
+    }
     else{
         let totalNum = firstNum - secondNum;
         document.getElementById("total").innerHTML = totalNum;
@@ -52,6 +60,10 @@ function mulNum(){
     if(document.getElementById("first").value === "" && document.getElementById("second").value === "")
     {
         document.getElementById("total").innerHTML = "Enter first and second number";
+    }
+    else if(document.getElementById("first").value === "" || document.getElementById("second").value === "")
+    {
+        document.getElementById("total").innerHTML = "Enter second number";
     }
     else{
         let totalNum = firstNum * secondNum;
@@ -68,6 +80,10 @@ function divNum(){
     {
         document.getElementById("total").innerHTML = "Enter first and second number";
     }
+    else if(document.getElementById("first").value === "" || document.getElementById("second").value === "")
+    {
+        document.getElementById("total").innerHTML = "Enter second number";
+    }
     else{
         let totalNum = firstNum / secondNum;
         document.getElementById("total").innerHTML = totalNum.toFixed(1);
@@ -83,6 +99,10 @@ function remain(){
     if(document.getElementById("first").value === "" && document.getElementById("second").value === "")
     {
         document.getElementById("total").innerHTML = "Enter first and second number";
+    }
+    else if(document.getElementById("first").value === "" || document.getElementById("second").value === "")
+    {
+        document.getElementById("total").innerHTML = "Enter second number";
     }
     else{
         let totalNum = firstNum % secondNum;
